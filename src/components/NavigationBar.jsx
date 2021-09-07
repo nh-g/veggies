@@ -1,54 +1,41 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import MappingList from "./atoms/MappingList";
+import NavLink from './NavLink'
 
 const navLinks = [
   {
-    title: "Home",
+    title: "home",
     path: "/",
+    isImage: true,
   },
   {
-    title: "Dish",
+    title: "dish",
     path: "/dish",
+    isImage: false,
   },
   {
-    title: "Dessert",
+    title: "dessert",
     path: "/dessert",
+    isImage: false,
   },
   {
-    title: "Drinks",
+    title: "drinks",
     path: "/drinks",
+    isImage: false,
   },
   {
-    title: "Contact",
+    title: "contact",
     path: "/contact",
+    isImage: false,
   },
 ];
 
-export default function Navigation() {
-  const [menuActive, setMenuActive] = useState(false);
+export default function NavigationBar() {
   return (
-    <div className="header">
-      <Link to="/">
-        <img
-          className="brand "
-          src={require("../assets/images/logo/veggie50.svg").default}
-          alt="Logo"
-        />
-      </Link>
-      <div className={`nav-list ${menuActive && "active"}`}>
-        <ul>
-          {navLinks.map((link, index) => (
-            <li key={index}>
-              <Link to={link.path} onClick={() => setMenuActive(!menuActive)}>
-                {link.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div className="menu" onClick={() => setMenuActive(!menuActive)}>
-        <div className="bar"></div>
-      </div>
-    </div>
+    <nav className="nav-bar">
+      <ul>
+        <MappingList getData={navLinks} Component={NavLink} />
+      </ul>
+    </nav>
   );
+
 }
