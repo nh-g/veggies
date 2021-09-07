@@ -27,4 +27,10 @@
 
   --font-button-mobile: 15px;
   --font-button-desktop: 19px;
+
+    /* Media */  
+  --mobile: 320px;
+  --tablet: 768px;
+  --desktop: 1100;
+
 }
