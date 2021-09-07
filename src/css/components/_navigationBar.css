@@ -8,26 +8,30 @@
   z-index: 9999;
 }
 
-.nav-bar ul {
+.nav-bar ul{
   list-style: none;
-  margin: 6px auto;
+  /* margin: 6px auto; */
   width: 90%;
   height: 46px;
+  height: 50%;
   background: transparent;
   border-radius: 25px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 20%);
   align-content: center;
   align-items: center;
 }
-
+.nav-bar li{
+  text-align: center;
+}
 .nav-item {
   justify-self: center;
 }
 
 .nav-item a{
+  text-align: center;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--color-gray);
 }
 .nav-item a:hover {
