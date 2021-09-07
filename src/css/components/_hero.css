@@ -1,0 +1,25 @@
+#hero {
+	width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    /* height: calc(100vh - 60px); */
+	display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(/src/assets/images/homepage/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .text-box{
+    margin: auto;
+    width: 50%;
+}
+#hero .text-box h1 {
+    font-family: 'Great Vibes', 'cursive';  
+    font-size: 4rem; 
+}
+#hero .text-box h2 {
+    font-family: 'Urbanist', sans-serif;  
+    font-size: 2rem; 
+}

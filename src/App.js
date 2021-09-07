@@ -7,6 +7,7 @@ import {
 
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 import './css/style.css';
 export default function App() {
@@ -15,10 +16,7 @@ export default function App() {
       <div className="App">
         <NavigationBar />
         <div className="main">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          laudantium cupiditate totam quae eaque sed temporibus voluptate unde
-          accusantium optio sit maiores, minus sequi tenetur est soluta quas,
-          aliquam distinctio!
+          <Hero/>
         </div>
         <Footer />
       </div>
