@@ -1,0 +1,7 @@
+/* Base */
+@import url('./base/variables.css');
+@import url('./base/layout.css');
+
+/* Components */
+@import url('./components/_navigationBar.css');
+@import url('./components/_footer.css');

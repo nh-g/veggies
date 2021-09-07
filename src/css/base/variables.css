@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  /* --color-blue: #0058ab;
+  --color-blue-dark: #004a91;
+  --color-gray-1: #f6f4f5;
+  --color-gray-2: #e2e1e2;
+  --color-gray-3: #a9a9a8;
+  --color-gray-4: #484848; */
+
+  --color-gray: #444;
+  --color-yellow: #FBC03A;
+  --color-green: #A5E27D;
+  --color-gray-light: #e2e1e2;
+
+  /* Spacing */
+  --space-big: 24px;
+  --space-medium: 16px;
+  --space-small: 8px;
+
+  /* Fonts */
+  --font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+  --font-title-mobile: 18px;
+  --font-title-desktop: 25px;
+
+  --font-text-mobile: 12px;
+  --font-text-desktop: 16px;
+
+  --font-button-mobile: 14px;
+  --font-button-desktop: 18px;
+}
