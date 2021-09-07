@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Urbanist:wght@100;200;300;400;600&display=swap');
+
 .App, html, body {
     color: var(--color-gray);
+    font-size: var(--font-text-desktop);
+    font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
 }
