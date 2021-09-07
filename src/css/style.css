@@ -5,4 +5,7 @@
 /* Components */
 @import url('./components/_navigationBar.css');
 @import url('./components/_footer.css');
-@import url('./components/_hero.css');
+
+/* Sections */
+@import url('./sections/_hero.css');
+@import url('./sections/_category-masonry.css');

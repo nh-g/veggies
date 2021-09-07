@@ -1,0 +1,71 @@
+.category-masonry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-decoration: none;
+}
+
+.category-masonry img {
+  width: 100%;
+  height: 12rem;
+}
+
+/* Reverse column */
+.category-masonry:nth-child(even) > .right-content {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.intro {
+  height: 3rem;
+}
+.category-masonry .right-content {
+  padding: 10px;
+}
+.category-masonry h2 {
+  margin-top: 0;
+  text-decoration: none;
+}
+.category-masonry p {
+  height: 5rem;
+  line-height: 1rem;
+  overflow: hidden;
+  justify-content: justify;
+}
+.category-masonry:nth-child(even) .cta {
+  background: linear-gradient(rgba(236, 138, 9, 0.5), rgba(247, 140, 18, 0.3)),
+    url("https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 10px;
+  height: 44px;
+  line-height: 44px;
+}
+.category-masonry:nth-child(odd) .cta {
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.5),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("/src/assets/images/button/green\ brush\ stroke.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 15px;
+  height: 44px;
+  line-height: 44px;
+}
+
+@media screen and (min-width: 768px) {
+    .category-masonry .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+    .category-masonry img {
+        height: 19rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+    .category-masonry img {
+        height: 20rem;
+  }
+}

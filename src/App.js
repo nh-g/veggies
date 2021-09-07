@@ -7,7 +7,7 @@ import {
 
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import HomePage from "./pages/HomePage";
 
 import './css/style.css';
 export default function App() {
@@ -16,7 +16,7 @@ export default function App() {
       <div className="App">
         <NavigationBar />
         <div className="main">
-          <Hero/>
+          <HomePage/>
         </div>
         <Footer />
       </div>
