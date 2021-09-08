@@ -16,7 +16,8 @@ export default function Subscriber() {
     <div className="subscriber">
       <form onSubmit={onSubscribe}>
         <input value={name} onChange={(event) => onName(event)} />
-          <button className="button">Subscribe us</button>
+        {/* <button className="button">Subscribe us</button> */}
+        <span className="cta">Subscribe us</span>
       </form>
     </div>
   );

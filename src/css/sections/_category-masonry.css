@@ -31,6 +31,8 @@
   overflow: hidden;
   justify-content: justify;
 }
+
+/* Should think about @mixin */
 .category-masonry:nth-child(even) .cta {
   background: linear-gradient(rgba(236, 138, 9, 0.5), rgba(247, 140, 18, 0.3)),
     url("https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png");

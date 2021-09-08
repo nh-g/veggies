@@ -17,14 +17,14 @@ footer .footer h1 {
   font-weight: 500;
   font-family: "Great Vibes", cursive;
   text-transform: none;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .footer span {
   text-transform: uppercase;
   color: var(--color-yellow);
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .footer h2 {
@@ -60,4 +60,18 @@ footer .footer h1 {
 
 .footer p {
   font-size: 11px;
+}
+
+.subscriber input{
+  width: 80%;
+  border: solid 1px var(--color-green);
+}
+
+@media screen and (max-width: 350px) {
+  .footer .social-item {
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+}
+
 }
