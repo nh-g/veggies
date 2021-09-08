@@ -9,3 +9,6 @@
 /* Sections */
 @import url('./sections/_hero.css');
 @import url('./sections/_category-masonry.css');
+
+/* Pages */
+@import url('./pages/page-template.css');

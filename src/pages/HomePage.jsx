@@ -1,4 +1,4 @@
-import { getCategories } from '../data/categoryMasonry.js';
+import { getCategories } from '../data/categories.js';
 
 import MappingList from '../components/atoms/MappingList.jsx';
 import Hero from '../components/sections/Hero.jsx';

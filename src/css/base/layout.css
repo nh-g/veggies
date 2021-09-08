@@ -6,3 +6,6 @@
     font-size: var(--font-text-desktop);
     font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
 }
+.main{
+    margin-top: 60px;
+}

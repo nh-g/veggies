@@ -1,0 +1,36 @@
+.page-template .text-box{
+    height: 10em;
+    background: linear-gradient(rgba(250, 250, 250, 0.1), rgba(255, 255, 255, 0.1)), url("/src/assets/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+}
+.page-template .text-box h1 {
+    position: absolute;               
+    top: 50%;                         
+    left: 50%;
+    transform: translate(0, -50%);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    color: green;
+}
+.page-template header p {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 80%;
+    line-height: 1.2rem;
+    height: 5rem;
+}
+
+.page-template .masonry {
+    margin: 0 auto;
+    margin-bottom: 6px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 36% 64%;
+    text-decoration: none;
+}
+
+
