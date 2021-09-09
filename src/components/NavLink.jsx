@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo/veggie50.svg";
+import logo from "../assets/images/brand/veggie50.svg";
 import { Link } from "react-router-dom";
 
 export default function NavLink({ item: {title, path, isImage } }) {
