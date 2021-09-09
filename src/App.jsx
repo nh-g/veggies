@@ -9,6 +9,9 @@ import PageRenderer from "./Page-renderer";
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 
+import ProductPage from "./pages/productpage";
+import DishPage from './pages/dishpage';
+
 import './css/style.css';
 export default function App() {
   return (
@@ -17,12 +20,14 @@ export default function App() {
         <NavigationBar />
         <div className="main">
           <Switch>
-            <Route path="/:page" component={PageRenderer} /> 
-            {/* <Route
-              path="/dish"
-              component={() => <CategoryPage urlParameter={"dish"} />}
-            /> */}
-            <Route path="/" render={() => <Redirect to="/home" />} />
+            <Route exact path="/:page" component={PageRenderer} />
+            {/* <Route exact path="/dish" component={DishPage} /> */}
+            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <Route
+              exact
+              path="/:category/:product_id"
+              component={ProductPage}
+            />
             <Route component={() => 404} />
           </Switch>
         </div>

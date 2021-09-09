@@ -9,6 +9,7 @@ export default function CategoryPage() {
   return (
     <div className="page-template dish">
       <Header item={getCategories()[2]} />
+      <div className="spacer intro" />
       <div className="list">
         <MappingList getData={getDrinks()} Component={Masonry} />
       </div>

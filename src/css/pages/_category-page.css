@@ -16,17 +16,9 @@
     font-size: 2.5rem;
     color: green;
 }
-.page-template header p {
-    margin: 0 auto;
-    margin-top: 1rem;
-    width: 80%;
-    line-height: 1.2rem;
-    height: 5rem;
-}
 
 .page-template .masonry {
     margin: 0 auto;
-    margin-bottom: 6px;
     width: 80%;
     display: grid;
     grid-template-columns: 36% 64%;

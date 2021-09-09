@@ -34,28 +34,28 @@
   overflow: hidden;
   justify-content: justify;
 }
-
 /* Should think about @mixin */
-.masonry:nth-child(even) .cta {
-  background: linear-gradient(rgba(236, 138, 9, 0.5), rgba(247, 140, 18, 0.3)),
-    url("https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png");
+.masonry:nth-child(even) .cta  {
+  background: url("https://www.andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 10px;
   height: 44px;
   line-height: 44px;
+  padding: 15px;
+
 }
-.masonry:nth-child(odd) .cta {
+
+.cta:nth-child(odd) {
   background: linear-gradient(
-      rgba(250, 250, 250, 0.5),
+      rgba(250, 250, 250, 0.4),
       rgba(255, 255, 255, 0.3)
     ),
     url("/src/assets/images/button/green\ brush\ stroke.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 15px;
   height: 44px;
-  line-height: 44px;
+  line-height: 44px; 
+  padding: 15px;
 }
 
 @media screen and (min-width: 768px) {

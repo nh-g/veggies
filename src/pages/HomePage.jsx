@@ -9,8 +9,6 @@ export default function HomePage() {
         <Hero />
         <div className="spacer intro"/>
         <MappingList getData={getCategories()} Component={Masonry} />
-        <div className="spacer intro"/>
-
       </div>
     );
 }

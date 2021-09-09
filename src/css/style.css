@@ -11,4 +11,5 @@
 @import url('./sections/_category-masonry.css');
 
 /* Pages */
-@import url('./pages/page-template.css');
+@import url('./pages/_category-page.css');
+@import url('./pages/_product-page.css');
