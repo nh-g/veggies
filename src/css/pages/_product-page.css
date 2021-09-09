@@ -3,14 +3,15 @@
     height: 30vh;
     object-fit: contain;
 }
-.product-page h1{
+.product-page h2{
     width: 80%;
     margin: 0 auto; 
+    text-align: center;
 }
 
 .row {
     width: 80%;
-    /* justify-content: center; */
+    justify-content: center;
     margin: 0 auto !important;
     display: flex;
     flex-direction: row;
@@ -38,12 +39,12 @@
 
 .nutrition_facts{
     border: solid 3px black ;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding: 8px;
 }
 .calories-count h1, h5, span{
-    margin: 0 auto;
+    margin-top: 10px;
     text-align: center;
 }
 .calories-count h5{
@@ -77,6 +78,21 @@
     background-color: black;
 }
 
-.product-page .cta{
-    margin-left: 33.3%;
+.product-page a{
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+    /* margin-left: 35%; */
 }
+
+/* @media screen and (min-width: 768px) {
+    .nutrition_facts{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .nutrition_facts{
+        width: 40%;
+    }
+} */

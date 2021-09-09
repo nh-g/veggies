@@ -24,18 +24,24 @@ export default function ProductPage() {
 
     return (
       <div className="product-page">
+        {/* header */}
         <ImageLoader filePath={imgFilePath} />
-        <h1>{title.toUpperCase()}</h1>
+        <h2>{title.toUpperCase()}</h2>
         <div className="description">{description}</div>
         <br />
+
         <section className="row">
           <Ingredients item={ingredients} />
         </section>
         <br />
+
         <NutritionFacts product={selectedItem} />
         <br />
+
         <Link to={`/${category}`}>
-          <span className="cta">Back to {category.toUpperCase()}</span>
+          <div style={{textAlign:"center"}}>
+            <span className="cta">Back to {category.toUpperCase()}</span>
+          </div>
         </Link>
       </div>
     );
