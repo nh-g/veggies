@@ -1,4 +1,5 @@
 import ImageLoader from "../components/ImageLoader";
+import Map from "../components/Map";
 
 export default function ContactPage() {
     const ownerImageURL = "brand/owner.jpg"
@@ -23,6 +24,7 @@ export default function ContactPage() {
         </div>
 
         {/* Map */}
+        <Map/>
       </div>
     );
 }

@@ -5,6 +5,8 @@ import ImageLoader from "../ImageLoader";
 export default function Masonry({ item }) {
   const { urlParameter, title, description, imgFilePath } = item;
   return (
+    // TASK :Fix Link to product page 
+
     <div className="masonry">
       <Link to={`/categories/${urlParameter}`}>
         <div className="left-content">
