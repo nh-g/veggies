@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { icon } from "leaflet";
 import { Map as LeafletMap, Marker, TileLayer } from "react-leaflet";
 
