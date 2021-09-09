@@ -21,7 +21,6 @@ export default function App() {
         <div className="main">
           <Switch>
             <Route exact path="/:page" component={PageRenderer} />
-            {/* <Route exact path="/dish" component={DishPage} /> */}
             <Route exact path="/" render={() => <Redirect to="/home" />} />
             <Route
               exact
