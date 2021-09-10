@@ -37,11 +37,11 @@ In term of technology, this project was powered by React Router library to imple
 
 ## 4. Dependencies
 
-"emailjs-com": "^3.2.0",
-"leaflet": "^1.7.1",
-"react-dom": "^17.0.2",
-"react-leaflet": "^2.7.0",
-"react-router-dom": "^5.3.0"
+- "emailjs-com": "^3.2.0"
+- "leaflet": "^1.7.1"
+- "react-dom": "^17.0.2"
+- "react-leaflet": "^2.7.0"
+- "react-router-dom": "^5.3.0"
 
 ## 5. Resources
 Images: from Unplash
