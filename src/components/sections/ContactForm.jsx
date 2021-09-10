@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
 export default function ContactForm() {
@@ -6,6 +6,7 @@ export default function ContactForm() {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [date, setDate] = useState('');
+    const [time, setTime] = useState("");
     const [emailSent, setEmailSent] = useState(false);
 
     const submit = () => {
@@ -13,12 +14,7 @@ export default function ContactForm() {
             const serviceId = "service_7omxxg5";
             const templateId = "template_zqan7i2";
             const userId = "user_1jlxGYDmk1IIiMo7AtBRD";
-            const templateParams = {
-                name,
-                email,
-                message,
-                date
-            };
+            const templateParams = {name,email,message,date,time};
 
             emailjs.send(serviceId, templateId, templateParams, userId)
                 .then(response => console.log(response))
@@ -27,7 +23,7 @@ export default function ContactForm() {
             setName('');
             setEmail('');
             setMessage('');
-            setDate('');
+            // setDate('');
             setEmailSent(true);
         } else {
             alert('Please fill in all fields.');
@@ -49,11 +45,19 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <input
-          type="date"
-          value={date}
-          onChange={(e) => setDate(e.target.value)}
-        />
+        <div>
+          <input
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+          />
+
+          <input
+            type="time"
+            value={time}
+            onChange={(e) => setTime(e.target.value)}
+          />
+        </div>
 
         <textarea
           placeholder="Your message"
