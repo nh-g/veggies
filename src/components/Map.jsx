@@ -1,11 +1,10 @@
 import { icon } from "leaflet";
-import { Map as LeafletMap, Marker, TileLayer } from "react-leaflet";
+import { Map as LeafletMap, Marker, TileLayer, Popup } from "react-leaflet";
 
 import mapPin from "../assets/images/map-pin.png";
 
 export default function Map() {
   // Constants
-
   const zoomLevel = 15;
   const mapURL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
   const attribution = `&copy <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors`;
@@ -15,7 +14,9 @@ export default function Map() {
   return (
     <LeafletMap className="map" center={coordinates} zoom={zoomLevel}>
       <TileLayer url={mapURL} attribution={attribution} />
-      <Marker position={coordinates} icon={myIcon} />
+      <Marker position={coordinates} icon={myIcon}>
+        <Popup>Hello, I am Veggie. Find me at Odengatan 21, Stockholm</Popup>
+      </Marker>
     </LeafletMap>
   );
 }
