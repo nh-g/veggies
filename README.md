@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Vegan Restaurant 
+
+## 1. About project
+
+This is a multiple-page website of a vegan restaurant. 
+The website have 5 pages navigated via nav links on navigation bar. Besides, users can browser and click to be led to single product page. 
+Users can check the address pinned on an interactive map and also be able to send an email to the restaurant via contact form located in Contact page. 
+In term of technology, this project was powered by React Router library to implement dynamic routing around pages.
+
+## 2. Setup
+
+1. Clone repository `git clone https://github.com/nh-g/veggies.git`
+2. Open the terminal and navigate to the folder where the project is located.
+3. Install dependencies: `npm i`
+4. Run npm scripts: `npm start`
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## 3. Project Organization
+
+### 3.1 Requirement gathering
+
+[Google Docs link](https://docs.google.com/document/d/1AzCJcDhtIOAbvBdsGUYKyvxQB1SAGUl5Oe9GJ6sDBKw/edit)
+
+### 3.2 Project Management 
+[Google Spreadsheets link](https://docs.google.com/spreadsheets/d/1ctrtP7xnFdXyj2r__fg05Dk2HGBf7zW0KX12LFgtmik/edit#gid=722109281)
+
+### 3.3 User Flow
+
+[Whimsical link](https://whimsical.com/vegan-restaurant-1-31eopGWcnEz5x4zndBfrpt@2Ux7TurymMgwkVJ57LxV)
+
+### 3.4 Design mockup
+
+[Figma link](https://www.figma.com/file/lQys1itRcuLFJEHI5tEsum/Veggie-Vegan-Restaurant-website?node-id=0%3A1)
+### 3.5 Component Tree
+
+[Whimsical link](https://whimsical.com/vegan-restaurant-1-31eopGWcnEz5x4zndBfrpt@2Ux7TurymPUUX6oQfTRP)
+
+## 4. Dependencies
+
+"emailjs-com": "^3.2.0",
+"leaflet": "^1.7.1",
+"react-dom": "^17.0.2",
+"react-leaflet": "^2.7.0",
+"react-router-dom": "^5.3.0"
+
+## 5. Resources
+Images: from Unplash
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
