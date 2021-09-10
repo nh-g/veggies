@@ -40,7 +40,7 @@ export default function ProductPage() {
 
         <Link to={`/${category}`}>
           <div >
-            <span className="cta"> ⬅ Back to {category.toUpperCase()}</span>
+            <span className="cta">Back to {category.toUpperCase()}</span>
           </div>
         </Link>
       </div>
