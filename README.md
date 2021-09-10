@@ -2,9 +2,20 @@
 
 ## 1. About project
 
-This is a multiple-page website of a vegan restaurant. 
-The website have 5 pages: Home, Dish, Dessert, Drinks, Contact, which navigated via nav links on navigation bar. Besides, users can browser and click to be led to single product page. 
+This is a multiple-page website of a vegan restaurant. Check [Hosting URL](https://veggie-giang.web.app)
+
+The website have 5 pages which navigated via nav links on navigation bar:
+
+- Home
+- Dish
+- Dessert
+- Drinks
+- Contact
+  
+Besides, users can browser and click to be led to single product page. 
+
 Users can check the address pinned on an interactive map and also be able to send an email to the restaurant via contact form located in Contact page. 
+
 In term of technology, this project was powered by React Router library to implement dynamic routing around pages.
 
 ## 2. Setup
