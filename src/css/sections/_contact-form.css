@@ -40,4 +40,14 @@
     }
 }
 
+@media screen and (max-width: 321px) {
+    #contact-form {
+        width: fit-content;
+    }
+    #contact-form  input, textarea {
+        padding: 10px 10px;
+    
+    }
+
+}
 
