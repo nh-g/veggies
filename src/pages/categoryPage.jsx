@@ -40,8 +40,8 @@ export default function CategoryPage() {
         <MappingList getData={selectedProducts} Component={ProductMasonry} />
       </div>
       <Link to={`/`}>
-        <div style={{textAlign:"center"}}>
-          <span className="cta"> ⬅  Back to HOME </span>
+        <div style={{ textAlign: "center"}}>
+          <span className="cta">⬅ Back to HOME</span>
         </div>
       </Link>
     </div>
