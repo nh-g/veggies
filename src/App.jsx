@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 import HomePage from './pages/homepage';
 import ProductPage from "./pages/productpage";
-import CategoryPage from "./pages/categoryPage";
+import CategoryPage from "./pages/categorypage";
 import ContactPage from './pages/contactpage';
 
 import './css/style.css';
