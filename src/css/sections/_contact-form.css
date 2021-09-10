@@ -1,0 +1,32 @@
+#contact-form {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
+
+#contact-form  input, textarea {
+    width: 100%;
+    background-color: #f8f9fa;
+    border: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+#contact-form  textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+#contact-form p {
+    display: none;
+    text-align: center;
+}
+#contact-form .visible {
+    display: block;
+}
+    
+
+
