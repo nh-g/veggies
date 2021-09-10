@@ -39,8 +39,8 @@ export default function ProductPage() {
         <br />
 
         <Link to={`/${category}`}>
-          <div style={{textAlign:"center"}}>
-            <span className="cta">Back to {category.toUpperCase()}</span>
+          <div >
+            <span className="cta"> ⬅ Back to {category.toUpperCase()}</span>
           </div>
         </Link>
       </div>

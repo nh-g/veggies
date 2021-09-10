@@ -18,6 +18,10 @@
     /* height: 5rem; */
 }
 
+a{
+  text-decoration: none;
+}
+
 .cta:nth-child(odd) {
   background: linear-gradient(
       rgba(250, 250, 250, 0.4),
