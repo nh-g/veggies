@@ -11,9 +11,9 @@ export default function ProductPage() {
 
     const idNumber = Number.parseInt(product_id);
 
-    function selectItem(id) {
+    function selectItem(key) {
     return getProducts().find((item) => {
-      return item.id === id;
+      return item.id === key;
     });
     }
     const selectedItem = selectItem(idNumber);
