@@ -9,28 +9,23 @@ import ProductMasonry from "../components/sections/ProductMasonry";
 import { useParams } from "react-router-dom";
 
 export default function CategoryPage() {
-
   const {category} = useParams();
-  console.log("category");
 
-    function selectCategory(key) {
+  const selectedCategory = selectCategory(category);
+  function selectCategory(key) {
       return categoriesData.find((item) => {
         return item.title === key;
       });
     }
 
-    const selectedCategory = selectCategory(category);
-    console.log("selectedCategory", selectedCategory);
 
-
-    function selectProducts(key) {
+  const selectedProducts = selectProducts(category);
+  function selectProducts(key) {
       return productsData.filter((item) => {
         return item.category === key;
       });
     }
 
-    const selectedProducts = selectProducts(category);
-    console.log("selectedProducts", selectedProducts);
 
   return (
     <div className="page-template">
