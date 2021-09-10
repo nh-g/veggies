@@ -1,10 +1,9 @@
-import { getCategories } from "../data/categories";
-// import { getDrinks } from "../data/products";
-import { getProducts } from "../data/products";
+import { Link } from "react-router-dom";
+import categoriesData from "../data/categories.json"
+import productsData from "../data/products.json";
 
 import Header from "../components/sections/Header";
 import MappingList from "../components/atoms/MappingList";
-import CategoryMasonry from "../components/sections/CategoryMasonry";
 import ProductMasonry from "../components/sections/ProductMasonry";
 
 import { useParams } from "react-router-dom";
@@ -15,7 +14,7 @@ export default function CategoryPage() {
   console.log("category");
 
     function selectCategory(key) {
-      return getCategories().find((item) => {
+      return categoriesData.find((item) => {
         return item.title === key;
       });
     }
@@ -25,7 +24,7 @@ export default function CategoryPage() {
 
 
     function selectProducts(key) {
-      return getProducts().filter((item) => {
+      return productsData.filter((item) => {
         return item.category === key;
       });
     }
@@ -34,12 +33,17 @@ export default function CategoryPage() {
     console.log("selectedProducts", selectedProducts);
 
   return (
-    <div className="page-template dish">
+    <div className="page-template">
       <Header item={selectedCategory} />
       <div className="spacer" />
       <div className="list">
         <MappingList getData={selectedProducts} Component={ProductMasonry} />
       </div>
+      <Link to={`/`}>
+        <div style={{textAlign:"center"}}>
+          <span className="cta"> ⬅  Back to HOME </span>
+        </div>
+      </Link>
     </div>
   );
 }
