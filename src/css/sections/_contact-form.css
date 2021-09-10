@@ -29,7 +29,11 @@
     display: block;
 }
     
-
+.date-time {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+}
 @media screen and (min-width: 768px) {
     #contact-form {
         width: 40%;

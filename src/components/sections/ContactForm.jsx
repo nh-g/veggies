@@ -11,20 +11,22 @@ export default function ContactForm() {
 
     const submit = () => {
         if (name && email && message) {
-            const serviceId = "service_7omxxg5";
-            const templateId = "template_zqan7i2";
-            const userId = "user_1jlxGYDmk1IIiMo7AtBRD";
-            const templateParams = {name,email,message,date,time};
+          const serviceId = "service_7omxxg5";
+          const templateId = "template_zqan7i2";
+          const userId = "user_1jlxGYDmk1IIiMo7AtBRD";
+          const templateParams = { name, email, message, date, time };
 
-            emailjs.send(serviceId, templateId, templateParams, userId)
-                .then(response => console.log(response))
-                .then(error => console.log(error));
+          emailjs
+            .send(serviceId, templateId, templateParams, userId)
+            .then((response) => console.log(response))
+            .then((error) => console.log(error));
 
-            setName('');
-            setEmail('');
-            setMessage('');
-            // setDate('');
-            setEmailSent(true);
+          setName("");
+          setEmail("");
+          setMessage("");
+          setDate("");
+          setTime('');
+          setEmailSent(true);
         } else {
             alert('Please fill in all fields.');
         }
@@ -45,7 +47,7 @@ export default function ContactForm() {
           onChange={(e) => setEmail(e.target.value)}
         />
 
-        <div>
+        <div class="date-time">
           <input
             type="date"
             value={date}
