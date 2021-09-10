@@ -2,6 +2,7 @@
 
 .App, html, body {
     color: var(--color-gray);
+    font-size: var(--font-text-desktop);
     font-weight: 300;
     font-size: var(--font-text-desktop);
     font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
@@ -33,4 +34,16 @@ a{
   height: 44px;
   line-height: 44px; 
   padding: 15px;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 539px) {
+  .App, html, body {
+    font-size: var(--font-text-mobile);
+  }
+}
+@media screen and (max-width: 320px) {
+  .right-content a {
+    font-size: 11px;
+  }
 }
