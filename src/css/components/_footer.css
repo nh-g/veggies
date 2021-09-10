@@ -1,6 +1,7 @@
 footer{
     width: 100%;
-    background-color: #b7db9f;
+    /* background-color: #b7db9f; */
+    background-color: var(--color-gray-light);
     overflow: hidden;
     bottom: 0;
     display: grid;
@@ -10,7 +11,6 @@ footer{
 .footer img{
     width: 30px;
     height: 30px;
-    /* background-color: var(--color-gray-3); */
 }
 .footer p{
     margin-bottom: 20px;
