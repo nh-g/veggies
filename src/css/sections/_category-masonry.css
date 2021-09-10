@@ -15,8 +15,8 @@
   grid-row: 1;
 }
 
-.intro {
-  height: 3rem;
+.spacer {
+  height: 2rem;
 }
 .masonry .right-content {
   display: flex;

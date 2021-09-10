@@ -2,13 +2,12 @@ import { Link } from "react-router-dom";
 
 import ImageLoader from "../ImageLoader";
 
-export default function Masonry({ item }) {
-  const { urlParameter, title, description, imgFilePath } = item;
+export default function ProductMasonry({ item }) {
+  const { category, id , title, description, imgFilePath } = item;
   return (
-    // TASK :Fix Link to product page 
 
     <div className="masonry">
-      <Link to={`/categories/${urlParameter}`}>
+      <Link to={`/${category}/${id}`}>
         <div className="left-content">
           <ImageLoader filePath={imgFilePath} />
         </div>
@@ -16,7 +15,7 @@ export default function Masonry({ item }) {
       <div className="right-content">
         <h2>{title.toUpperCase()}</h2>
         <p>{description}</p>
-        <Link to={`/categories/${urlParameter}`}>
+        <Link to={`/${category}/${id}`}>
           <span className="cta">View {title.toUpperCase()}</span>
         </Link>
       </div>
