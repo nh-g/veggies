@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom'
-// import { getProducts } from '../data/products';
 import productsData from "../data/products.json";
 
 import ImageLoader from '../components/ImageLoader';
@@ -12,14 +11,13 @@ export default function ProductPage() {
     const {product_id} = useParams()
 
     const idNumber = Number.parseInt(product_id);
-
+    const selectedItem = selectItem(idNumber);
+    
     function selectItem(key) {
     return productsData.find((item) => {
       return item.id === key;
     });
     }
-    const selectedItem = selectItem(idNumber);
-    console.log("selectedItem", selectedItem);
 
     const { imgFilePath, title, description, ingredients } = selectedItem;
 
