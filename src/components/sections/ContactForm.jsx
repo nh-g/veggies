@@ -5,7 +5,7 @@ export default function ContactForm() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    // const [date, setDate] = useState('');
+    const [date, setDate] = useState('');
     const [emailSent, setEmailSent] = useState(false);
 
     const submit = () => {
@@ -17,7 +17,7 @@ export default function ContactForm() {
                 name,
                 email,
                 message,
-                // date
+                date
             };
 
             emailjs.send(serviceId, templateId, templateParams, userId)
@@ -27,6 +27,7 @@ export default function ContactForm() {
             setName('');
             setEmail('');
             setMessage('');
+            setDate('');
             setEmailSent(true);
         } else {
             alert('Please fill in all fields.');
@@ -47,6 +48,13 @@ export default function ContactForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
+
+        <input
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+        />
+
         <textarea
           placeholder="Your message"
           value={message}
