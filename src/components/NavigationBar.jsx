@@ -1,5 +1,5 @@
 import MappingList from "./atoms/MappingList";
-import NavLink from './NavLink'
+import NavLink from "./NavLink";
 
 const navLinks = [
   {
@@ -33,9 +33,10 @@ export default function NavigationBar() {
   return (
     <nav className="nav-bar">
       <ul>
+        {/* Nice! */}
+        {/* I will explain a folder structure trick, that will make easier to put the navLinks object as a separate json */}
         <MappingList getData={navLinks} Component={NavLink} />
       </ul>
     </nav>
   );
-
 }
