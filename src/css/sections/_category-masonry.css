@@ -22,18 +22,23 @@
 .masonry .right-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* column-gap: 10px; */
+  justify-content: space-around;
   padding: 10px;
+  align-items: center;
 }
 .masonry h2 {
   margin-top: 0;
   text-decoration: none;
+
 }
 .masonry p {
   height: 5rem;
   line-height: 1rem;
   overflow: hidden;
   justify-content: justify;
+  max-width: 400px;
+
 }
 /* Should think about @mixin */
 .masonry:nth-child(even) .cta  {
