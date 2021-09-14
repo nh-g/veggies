@@ -16,9 +16,6 @@
   list-style: none;
   width: 80%;
   height: 50%;
-  /* background: transparent; */
-  /* display: grid; */
-  /* grid-template-columns: repeat(5, 20%); */
   align-content: center;
   align-items: center;
 
@@ -31,9 +28,6 @@
   font-weight: 500;
 
 }
-/* .nav-item {
-  justify-self: center;
-} */
 
 .nav-item a{
   text-align: center;
@@ -70,5 +64,14 @@
 @media (max-width: 440px) {
   .nav-item a {
     font-size: var(--font-text-mobile);
+  }
+}
+
+@media (min-width: 960px) {
+  .nav-bar{
+    height: 80px;
+  }
+  .main{
+    margin-top: 80px;
   }
 }
