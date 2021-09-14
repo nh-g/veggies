@@ -1,9 +1,9 @@
 [
   {
-    "imgFilePath": "categoryMasonry/dish.jpg",
-    "title": "dish",
-    "urlParameter": "dish",
-    "description": "Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you."
+    "imgFilePath": "categoryMasonry/dishes.jpg",
+    "title": "dishes",
+    "urlParameter": "dishes",
+    "description": "Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free disheses, you'll find plenty here to inspire you."
   },
   {
     "imgFilePath": "categoryMasonry/dessert.jpg",

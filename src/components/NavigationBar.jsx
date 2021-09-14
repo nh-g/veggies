@@ -1,5 +1,5 @@
 import MappingList from "./atoms/MappingList";
-import NavLink from './NavLink'
+import NavLink from "./NavLink";
 
 const navLinks = [
   {
@@ -8,8 +8,8 @@ const navLinks = [
     isImage: true,
   },
   {
-    title: "dish",
-    path: "/dish",
+    title: "dishes",
+    path: "/dishes",
     isImage: false,
   },
   {
@@ -37,5 +37,4 @@ export default function NavigationBar() {
       </ul>
     </nav>
   );
-
 }
