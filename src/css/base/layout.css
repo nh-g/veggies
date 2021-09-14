@@ -48,7 +48,7 @@ a{
     font-size: var(--font-text-desktop);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1500px) {
   .App, html, body {
     font-size: var(--font-text-big-desktop);
   }
