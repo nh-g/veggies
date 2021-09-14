@@ -16,7 +16,7 @@ export default function ContactPage() {
           </p>
         </div>
 
-        <h2>Book a table with us</h2>
+        <h2>Book a table with us or just say Hi!</h2>
         <ContactForm />
 
         <div className="address">
