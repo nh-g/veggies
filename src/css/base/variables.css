@@ -15,8 +15,12 @@
   --font-title-mobile: 18px;
   --font-title-desktop: 25px;
 
+  --font-text-small-mobile: 13px;
   --font-text-mobile: 13px;
-  --font-text-desktop: 17px;
+  --font-text-tablet: 17px;
+  --font-text-desktop: 21px;
+  --font-text-big-desktop: 25px;
+
 
   --font-button-mobile: 15px;
   --font-button-desktop: 19px;
