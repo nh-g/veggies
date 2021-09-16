@@ -26,8 +26,13 @@
   --font-button-desktop: 19px;
 
     /* Media */  
-  --mobile: 320px;
+  --small-mobile: 320px;
   --tablet: 768px;
   --desktop: 1100px;
+
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 24px;
+  --space-ultra: 48px;
 
 }
