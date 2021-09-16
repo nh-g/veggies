@@ -1,7 +1,7 @@
 footer{
     width: 100%;
-    background-color: #b7db9f;
-    /* background-color: var(--color-gray-light); */
+    /* background-color: #b7db9f; */
+    background-color: var(--color-gray-light);
     overflow: hidden;
     bottom: 0;
     display: grid;
@@ -9,8 +9,10 @@ footer{
     align-items: center;
 }
 .footer img{
-    width: 30px;
-    height: 30px;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    vertical-align: middle;
+
 }
 .footer img:hover{
     transform: scale(1.5);
@@ -27,7 +29,7 @@ footer{
     align-items: center;
     text-align: center;
     padding: 0;
-    margin-top: 20px;
+    margin-top: 1.5rem;
 }
 
 .footer li{
