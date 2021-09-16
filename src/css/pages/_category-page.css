@@ -1,5 +1,5 @@
 .category-page {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .category-page header p {
@@ -36,4 +36,9 @@
   display: grid;
   grid-template-columns: 36% 64%;
   text-decoration: none;
+}
+
+.category-page .masonry p {
+  max-width: 700px;
+  text-align: justify;
 }

@@ -17,7 +17,7 @@
   max-width: 430px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 411px) {
   .masonry {
     display: grid;
     grid-template-columns: 1fr 1fr;
