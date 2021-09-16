@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Urbanist:wght@100;200;300;400;600&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 .App, html, body {
     margin: 0;
     color: var(--color-gray);
@@ -12,6 +15,19 @@
     margin-top: 60px;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .description {
     margin: 0 auto;
     margin-top: 1rem;
@@ -22,23 +38,33 @@
 
 a{
   text-decoration: none;
+  color: white;
+  font-weight: 500;
 }
 
 .cta:nth-child(odd) {
   background: linear-gradient(
-      rgba(250, 250, 250, 0.4),
-      rgba(255, 255, 255, 0.3)
+      rgba(250, 250, 250, 0.2),
+      rgba(255, 255, 255, 0.2)
     ),
     url("/src/assets/images/button/green\ brush\ stroke.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 44px;
   line-height: 44px; 
-  padding: 15px;
+  padding: var(--space-medium);
   white-space: nowrap;
 }
 
-@media screen and (max-width: 539px) {
+.masonry:nth-child(even) .cta  {
+  background: url("/src/assets/images/button/yellow\ brush\ stroke.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 44px;
+  line-height: 44px;
+}
+
+@media screen and (max-width: 550px) {
   .App, html, body {
     font-size: var(--font-text-mobile);
   }
@@ -53,7 +79,6 @@ a{
     font-size: var(--font-text-big-desktop);
   }
 }
-
 
 @media screen and (max-width: 320px) {
   .right-content a {
