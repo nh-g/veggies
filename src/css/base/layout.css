@@ -6,13 +6,13 @@
 .App, html, body {
     margin: 0;
     color: var(--color-gray);
-    font-size: var(--font-text-desktop);
+    font-size: var(--font-text-tablet);
     font-weight: 300;
     font-size: var(--font-text-tablet);
     font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
 }
 .main{
-    margin-top: 60px;
+    margin-top: 4.5rem;
 }
 
 h1,
@@ -52,7 +52,8 @@ a{
   background-size: 100% 100%;
   height: 44px;
   line-height: 44px; 
-  padding: var(--space-medium);
+  padding: 1rem;
+  font-size: 1.1rem;
   white-space: nowrap;
 }
 
@@ -64,21 +65,31 @@ a{
   line-height: 44px;
 }
 
+.cta:hover{
+  color: var(--color-gray);
+}
+
 @media screen and (max-width: 550px) {
   .App, html, body {
     font-size: var(--font-text-mobile);
   }
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 768px) {
   .App, html, body {
     font-size: var(--font-text-desktop);
   }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1200px) {
   .App, html, body {
     font-size: var(--font-text-big-desktop);
   }
 }
+@media screen and (min-width: 1800px) {
+  .App, html, body {
+    font-size: var(--font-text-ultra-desktop);
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .right-content a {
