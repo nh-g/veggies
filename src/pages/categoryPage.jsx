@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import categoriesData from "../data/categories.json"
+import categoriesData from "../data/categories.json";
 import productsData from "../data/products.json";
 
 import Header from "../components/sections/Header";
@@ -9,33 +9,31 @@ import ProductMasonry from "../components/sections/ProductMasonry";
 import { useParams } from "react-router-dom";
 
 export default function CategoryPage() {
-  const {category} = useParams();
+  const { category } = useParams();
 
   const selectedCategory = selectCategory(category);
   function selectCategory(key) {
-      return categoriesData.find((item) => {
-        return item.title === key;
-      });
-    }
-
+    return categoriesData.find((item) => {
+      return item.title === key;
+    });
+  }
 
   const selectedProducts = selectProducts(category);
   function selectProducts(key) {
-      return productsData.filter((item) => {
-        return item.category === key;
-      });
-    }
-
+    return productsData.filter((item) => {
+      return item.category === key;
+    });
+  }
 
   return (
-    <div className="page-template">
+    <div className="category-page">
       <Header item={selectedCategory} />
       <div className="spacer" />
       <div className="list">
         <MappingList getData={selectedProducts} Component={ProductMasonry} />
       </div>
-      <Link to={`/`}>
-        <div style={{ textAlign: "center"}}>
+      <Link to="/">
+        <div style={{ textAlign: "center" }}>
           <span className="cta">Back to HOME</span>
         </div>
       </Link>

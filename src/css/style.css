@@ -9,9 +9,10 @@
 
 /* Sections */
 @import url('./sections/_hero.css');
-@import url('./sections/_category-masonry.css');
+@import url('./sections/masonry.css');
 
 /* Pages */
+@import url('./pages/_home-page.css');
 @import url('./pages/_category-page.css');
 @import url('./pages/_product-page.css');
 @import url('./pages/_contact-page.css');

@@ -1,0 +1,40 @@
+
+.masonry img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.masonry .right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: var(--space-medium);
+  align-items: center;
+}
+
+.masonry p {
+  justify-content: justify;
+  max-width: 430px;
+}
+
+@media (min-width: 550px) {
+  .masonry {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .masonry .right-content {
+    padding: var(--space-ultra);
+  }
+}
+
+/* Special case for the cards on monitors bigger than full HD */
+@media (min-width: 2500px) {
+  .masonry {
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+}
