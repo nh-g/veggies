@@ -1,4 +1,4 @@
-import categoriesData from "../../data/categories.json";
+import categoriesData from "../CategoryPages/categories.json";
 
 import MappingList from "../../components/atoms/MappingList.jsx";
 import Hero from "./Hero.jsx";

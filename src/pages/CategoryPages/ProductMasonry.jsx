@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import ImageLoader from "../ImageLoader";
+import ImageLoader from "../../components/ImageLoader";
 
 export default function ProductMasonry({ item }) {
   const { category, id , title, description, imgFilePath } = item;

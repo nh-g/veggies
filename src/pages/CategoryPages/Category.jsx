@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import categoriesData from "../data/categories.json";
-import productsData from "../data/products.json";
+import categoriesData from "./categories.json";
+import productsData from "../../data/products.json";
 
-import Header from "../components/sections/Header";
-import MappingList from "../components/atoms/MappingList";
-import ProductMasonry from "../components/sections/ProductMasonry";
+import Header from "./Header";
+import MappingList from "../../components/atoms/MappingList";
+import ProductMasonry from "./ProductMasonry";
 
 import { useParams } from "react-router-dom";
 
