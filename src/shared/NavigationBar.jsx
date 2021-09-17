@@ -1,4 +1,4 @@
-import MappingList from "./atoms/MappingList";
+import MappingList from "./MappingList";
 import NavLink from "./NavLink";
 
 const navLinks = [

@@ -5,8 +5,8 @@ import {
   Redirect,
 } from "react-router-dom";
 
-import NavigationBar from "./components/NavigationBar";
-import Footer from "./components/Footer";
+import NavigationBar from "./shared/NavigationBar";
+import Footer from "./shared/Footer";
 
 import HomePage from './pages/HomePage/Home';
 import ProductPage from "./pages/ProductPages/Product";

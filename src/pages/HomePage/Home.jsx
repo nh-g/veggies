@@ -1,6 +1,6 @@
 import categoriesData from "../CategoryPages/categories.json";
 
-import MappingList from "../../components/atoms/MappingList.jsx";
+import MappingList from "../../shared/MappingList.jsx";
 import Hero from "./Hero.jsx";
 import CategoryMasonry from "./CategoryMasonry";
 export default function HomePage() {

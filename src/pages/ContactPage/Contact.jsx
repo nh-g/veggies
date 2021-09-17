@@ -1,4 +1,4 @@
-import ImageLoader from "../../components/ImageLoader";
+import ImageLoader from "../../shared/ImageLoader";
 import Map from "./Map";
 import ContactForm from "./ContactForm";
 

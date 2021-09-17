@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import categoriesData from "./categories.json";
 import productsData from "../ProductPages/products.json";
 import Header from "./Header";
-import MappingList from "../../components/atoms/MappingList";
+import MappingList from "../../shared/MappingList";
 import ProductMasonry from "./ProductMasonry";
 
 export default function CategoryPage() {
