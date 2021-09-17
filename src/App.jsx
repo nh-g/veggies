@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import HomePage from './pages/HomePage/Home';
 import ProductPage from "./pages/ProductPages/Product";
 import CategoryPage from "./pages/CategoryPages/Category";
-import ContactPage from './pages/contactpage';
+import ContactPage from './pages/ContactPage/Contact';
 
 import './css/style.css';
 export default function App() {

@@ -1,6 +1,6 @@
-import ImageLoader from "../components/ImageLoader";
-import Map from "../components/Map";
-import ContactForm from "../components/sections/ContactForm";
+import ImageLoader from "../../components/ImageLoader";
+import Map from "./Map";
+import ContactForm from "./ContactForm";
 
 export default function ContactPage() {
     const ownerImageURL = "brand/owner.jpg"

@@ -1,7 +1,7 @@
-import { icon } from "leaflet";
 import { Map as LeafletMap, Marker, TileLayer, Popup } from "react-leaflet";
+import { icon } from "leaflet";
 
-import mapPin from "../assets/images/map-pin.png";
+import mapPin from "../../assets/images/map-pin.png";
 
 export default function Map() {
   // Constants
