@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom'
-import productsData from "../data/products.json";
 
-import ImageLoader from '../components/ImageLoader';
-import Ingredients from "../components/sections/Ingredients";
-import NutritionFacts from '../components/sections/NutritionFacts';
+import productsData from "./products.json";
+import ImageLoader from '../../components/ImageLoader';
+import Ingredients from "./Ingredients";
+import NutritionFacts from './NutritionFacts';
 
 export default function ProductPage() {
     const {category} = useParams()

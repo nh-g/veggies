@@ -9,7 +9,7 @@ import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 
 import HomePage from './pages/HomePage/Home';
-import ProductPage from "./pages/productpage";
+import ProductPage from "./pages/ProductPages/Product";
 import CategoryPage from "./pages/CategoryPages/Category";
 import ContactPage from './pages/contactpage';
 

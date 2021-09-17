@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import categoriesData from "./categories.json";
-import productsData from "../../data/products.json";
+import { useParams } from "react-router-dom";
 
+import categoriesData from "./categories.json";
+import productsData from "../ProductPages/products.json";
 import Header from "./Header";
 import MappingList from "../../components/atoms/MappingList";
 import ProductMasonry from "./ProductMasonry";
-
-import { useParams } from "react-router-dom";
 
 export default function CategoryPage() {
   const { category } = useParams();
