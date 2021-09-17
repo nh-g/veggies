@@ -1,6 +1,9 @@
 export default function NutritionFacts({ product }) {
-  const calories = product.nutrition_facts[0];
-  const otherData = product.nutrition_facts.slice(1,product.nutrition_facts.length);
+  const calories = product.nutritionFacts[0];
+  const otherData = product.nutritionFacts.slice(
+    1,
+    product.nutritionFacts.length
+  );
   const NutritionPercentages = otherData.map((item) => {
     return (
       <tr key={item.id}>
@@ -15,7 +18,7 @@ export default function NutritionFacts({ product }) {
   });
 
   return (
-    <section className="nutrition_facts">
+    <section className="nutritionFacts">
       <header>
         <h2>Nutrition Facts</h2>
         <h5>Serving Size 1/2 cup (about 82g) </h5>
@@ -35,7 +38,7 @@ export default function NutritionFacts({ product }) {
       </table>
 
       <div className="separator15" />
-      
+
       <h5>
         *The % Daily Value tells you how much a nutrient in a serving food
         contributes to a daily die. 2000 calories a day is used for general

@@ -3,10 +3,10 @@
     "id": 1,
     "category": "dishes",
     "title": "dreamy broccoli",
-    "imgFilePath": "dishes/broccoli.jpg",
+    "imagePath": "dishes/broccoli.jpg",
     "description": "Steamed broccoli with the wonderful mixture of green and white of tofu, kombu, miso and rice.         Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you.",
     "ingredients": ["broccoli", "tofu", "kombu", "rice", "miso"],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -57,7 +57,7 @@
   {
     "id": 2,
     "title": "flying tomato",
-    "imgFilePath": "dishes/tomato.jpg",
+    "imagePath": "dishes/tomato.jpg",
     "description": "A food which can make you fly. Only tomato, but not just tomato. Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you.",
     "category": "dishes",
     "ingredients": [
@@ -67,7 +67,7 @@
       "new potatoes",
       "peas"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -118,7 +118,7 @@
   {
     "id": 3,
     "title": "Dancing Bean",
-    "imgFilePath": "dishes/bean.jpg",
+    "imagePath": "dishes/bean.jpg",
     "description": "Let the beans dance in the good mixture of perfect ingredients. Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you.",
     "category": "dishes",
     "ingredients": [
@@ -128,7 +128,7 @@
       "new potatoes",
       "onion"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -179,11 +179,11 @@
   {
     "id": 4,
     "title": "Roasted radish",
-    "imgFilePath": "dishes/radish.jpg",
+    "imagePath": "dishes/radish.jpg",
     "description": "Roasted radish in Japanese styles. Served with fresh herbs. Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you.",
     "category": "dishes",
     "ingredients": ["radish", "paprika", "apples", "rosemary", "thyme", "sage"],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -234,11 +234,11 @@
   {
     "id": 5,
     "title": "Berry sorbet",
-    "imgFilePath": "dessert/berry.jpg",
+    "imagePath": "dessert/berry.jpg",
     "description": "Sweet yet tart rhubarb sorbet with salty, crunchy brittle – flavours and textures that go mad in your mouth. Whether it's delicious vegetarian or easy vegan recipes you're after, or ideas for gluten or dairy-free dishes, you'll find plenty here to inspire you.",
     "category": "dessert",
     "ingredients": ["Berry", "sugar", "lime", "vegetal oil", "vegan milk"],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -288,7 +288,7 @@
   },
   {
     "id": 6,
-    "imgFilePath": "dessert/cinnamon.jpg",
+    "imagePath": "dessert/cinnamon.jpg",
     "title": "cinnamon",
     "description": "Just a bite can make you fly. Vegan desserts do not contain milk nor dairy products (yogurt, butter, cream, cheese, milk permeate, milk chocolate…), eggs, honey and animal gelatin.",
     "category": "dessert",
@@ -300,7 +300,7 @@
       "chilli",
       "sea salt"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -350,7 +350,7 @@
   },
   {
     "id": 7,
-    "imgFilePath": "dessert/banana.jpg",
+    "imagePath": "dessert/banana.jpg",
     "title": "sticky banana",
     "description": "Sticky-sweet and topped with lightly spiced banana, this makes the perfect afternoon tea treat! Vegan desserts do not contain milk nor dairy products (yogurt, butter, cream, cheese, milk permeate, milk chocolate…), eggs, honey and animal gelatin.",
     "category": "dessert",
@@ -362,7 +362,7 @@
       "apple",
       "salt"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -412,7 +412,7 @@
   },
   {
     "id": 8,
-    "imgFilePath": "dessert/melon.jpg",
+    "imagePath": "dessert/melon.jpg",
     "title": "mojito melon",
     "description": "Mojito Fruit Salad is a refreshing, non-alcoholic fruit and berry salad that tastes just like a sweet mojito. Vegan desserts do not contain milk nor dairy products (yogurt, butter, cream, cheese, milk permeate, milk chocolate…), eggs, honey and animal gelatin.",
     "category": "dessert",
@@ -424,7 +424,7 @@
       "rhum",
       "mint"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -475,7 +475,7 @@
   {
     "id": 9,
     "title": "magical matcha",
-    "imgFilePath": "drinks/matcha.jpg",
+    "imagePath": "drinks/matcha.jpg",
     "description": "This richly flavoured matcha takes a while to come alive, so give it a good stir. Cocktails use fun, natural ingredients like maple, beets and waterberry to add color and flavor and are completely free of animal ingredients like milk, eggs and honey that are sometimes found in cocktails",
     "category": "drinks",
     "ingredients": [
@@ -486,7 +486,7 @@
       "orange twist",
       "lemon"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -537,7 +537,7 @@
   {
     "id": 10,
     "title": "ginger tea",
-    "imgFilePath": "drinks/tea.jpg",
+    "imagePath": "drinks/tea.jpg",
     "description": "Named at a time when a lot of booze went into this drink, our version is lighter with two kinds of rum rounded off by the tropical fruit flavours. Cocktails use fun, natural ingredients like maple, beets and waterberry to add color and flavor and are completely free of animal ingredients like milk, eggs and honey that are sometimes found in cocktails",
     "category": "drinks",
     "ingredients": [
@@ -548,7 +548,7 @@
       "orange twist",
       "lemon"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -599,7 +599,7 @@
   {
     "id": 11,
     "title": "mai tai",
-    "imgFilePath": "drinks/redtea.jpg",
+    "imagePath": "drinks/redtea.jpg",
     "description": "Mai Tai is Tahitian for “good”, but we think this tropical cocktail is better than that – it’s South Pacific sunshine in a glass! Get your grass skirts on. Cocktails use fun, natural ingredients like maple, beets and waterberry to add color and flavor and are completely free of animal ingredients like milk, eggs and honey that are sometimes found in cocktails",
     "category": "drinks",
     "ingredients": [
@@ -610,7 +610,7 @@
       "orange juice",
       "lemon"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",
@@ -661,7 +661,7 @@
   {
     "id": 12,
     "title": "Cuba Libre",
-    "imgFilePath": "drinks/coffee.jpg",
+    "imagePath": "drinks/coffee.jpg",
     "description": "The national drink of Cuba celebrating its independence. There’s more to it than just cola, rum and lime. Cocktails use fun, natural ingredients like maple, beets and waterberry to add color and flavor and are completely free of animal ingredients like milk, eggs and honey that are sometimes found in cocktails",
     "category": "drinks",
     "ingredients": [
@@ -672,7 +672,7 @@
       "limes",
       "lemon"
     ],
-    "nutrition_facts": [
+    "nutritionFacts": [
       {
         "id": 1,
         "label": "calories",

@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import ImageLoader from "../../shared/ImageLoader";
 
 export default function ProductMasonry({ item }) {
-  const { category, id , title, description, imgFilePath } = item;
+  const { category, id, title, description, imagePath } = item;
   return (
-
     <div className="masonry">
       <Link to={`/${category}/${id}`}>
         <div className="left-content">
-          <ImageLoader filePath={imgFilePath} />
+          <ImageLoader filePath={imagePath} />
         </div>
       </Link>
       <div className="right-content">
