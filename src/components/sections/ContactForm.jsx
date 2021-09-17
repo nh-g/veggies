@@ -67,11 +67,12 @@ export default function ContactForm() {
           onChange={(e) => setMessage(e.target.value)}
         ></textarea>
 
-        <div style={{ textAlign: "center" }} onClick={submit}>
+        <div style={{ textAlign: "center", marginTop: "1rem", marginBottom:"2rem"}} onClick={submit}>
           <span className="cta">Send Message</span>
         </div>
 
         <p className={emailSent ? "visible" : null}>
+          <span>✓　</span>
           Thank you for your message, we will be in touch in no time!
         </p>
       </div>
