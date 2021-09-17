@@ -11,13 +11,10 @@ export default function ProductPage() {
   const { product_id } = useParams();
 
   const idNumber = Number.parseInt(product_id);
-  const selectedItem = selectItem(idNumber);
 
-  function selectItem(key) {
-    return productsData.find((item) => {
-      return item.id === key;
-    });
-  }
+  const selectedItem = productsData.find((item) => {
+    return item.id === idNumber;
+  });
 
   const { imagePath, title, description, ingredients } = selectedItem;
 

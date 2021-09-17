@@ -10,19 +10,13 @@ import ProductMasonry from "./ProductMasonry";
 export default function CategoryPage() {
   const { category } = useParams();
 
-  const selectedCategory = selectCategory(category);
-  function selectCategory(key) {
-    return categoriesData.find((item) => {
-      return item.title === key;
-    });
-  }
+  const selectedCategory = categoriesData.find((item) => {
+    return item.title === category;
+  });
 
-  const selectedProducts = selectProducts(category);
-  function selectProducts(key) {
-    return productsData.filter((item) => {
-      return item.category === key;
+  const selectedProducts = productsData.filter((item) => {
+      return item.category === category;
     });
-  }
 
   return (
     <div className="category-page">
