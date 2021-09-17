@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 4.5rem;
+  height: 3rem;
   width: 100%;
   z-index: 9999;
 
@@ -13,8 +13,8 @@
 }
 
 .nav-bar .logo{
-  height: 4.5rem;
-  line-height: 4.5rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
   vertical-align: middle;
 }
 
@@ -34,7 +34,6 @@
 .nav-item a{
   text-align: center;
   text-decoration: none;
-  font-size: 1.2rem;
   font-weight: 500;
   color: var(--color-gray);
   transition: transform .2s;
@@ -72,11 +71,11 @@
   }
 }
 
-@media (min-width: 960px) {
+/* @media (min-width: 960px) {
   .nav-bar{
     height: 80px;
   }
   .main{
     margin-top: 80px;
   }
-}
+} */
