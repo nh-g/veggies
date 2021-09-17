@@ -8,7 +8,7 @@ import {
 import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 
-import HomePage from './pages/homepage';
+import HomePage from './pages/HomePage/Home';
 import ProductPage from "./pages/productpage";
 import CategoryPage from "./pages/categorypage";
 import ContactPage from './pages/contactpage';
