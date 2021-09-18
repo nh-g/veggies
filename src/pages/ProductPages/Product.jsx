@@ -1,6 +1,8 @@
+// NPM packages
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
+// project files
 import productsData from "./products.json";
 import ImageLoader from "../../shared/ImageLoader";
 import Ingredients from "./Ingredients";

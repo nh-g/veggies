@@ -1,6 +1,8 @@
+// NPM packages
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 
+// project files
 import categoriesData from "./categories.json";
 import productsData from "../ProductPages/products.json";
 import Header from "./Header";
@@ -15,8 +17,8 @@ export default function CategoryPage() {
   });
 
   const selectedProducts = productsData.filter((item) => {
-      return item.category === category;
-    });
+    return item.category === category;
+  });
 
   return (
     <div className="category-page">

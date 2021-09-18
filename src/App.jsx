@@ -1,13 +1,13 @@
+// NPM packages
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
+// project files
 import NavigationBar from "./shared/NavigationBar";
-import Footer from "./shared/Footer";
-
 import HomePage from './pages/HomePage/Home';
-import ProductPage from "./pages/ProductPages/Product";
 import CategoryPage from "./pages/CategoryPages/Category";
+import ProductPage from "./pages/ProductPages/Product";
 import ContactPage from './pages/ContactPage/Contact';
-
+import Footer from "./shared/Footer";
 import './css/style.css';
 
 export default function App() {

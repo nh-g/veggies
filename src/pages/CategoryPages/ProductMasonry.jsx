@@ -1,5 +1,7 @@
+// NPM packages
 import { Link } from "react-router-dom";
 
+// project file
 import ImageLoader from "../../shared/ImageLoader";
 
 export default function ProductMasonry({ item }) {
