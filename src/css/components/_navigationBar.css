@@ -13,8 +13,8 @@
 }
 
 .nav-bar .logo{
-  height: 3.5rem;
-  line-height: 3.5rem;
+  height: 3rem;
+  line-height: 3rem;
   vertical-align: middle;
 }
 
@@ -37,6 +37,7 @@
   font-weight: 500;
   color: var(--color-gray);
   transition: transform .2s;
+  font-size: 0.75rem;
 }
 
 .nav-item a:hover {
@@ -65,17 +66,3 @@
     order: initial;
   }
 }
-@media (max-width: 440px) {
-  .nav-item a {
-    font-size: var(--font-text-mobile);
-  }
-}
-
-/* @media (min-width: 960px) {
-  .nav-bar{
-    height: 80px;
-  }
-  .main{
-    margin-top: 80px;
-  }
-} */
