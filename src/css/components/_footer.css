@@ -1,7 +1,6 @@
 footer{
     width: 100%;
-    /* background-color: #b7db9f; */
-    background-color: var(--color-gray-light);
+    background-color: #f8f9fa;
     overflow: hidden;
     bottom: 0;
     display: grid;
@@ -9,8 +8,8 @@ footer{
     align-items: center;
 }
 .footer img{
-    height: 2.2rem;
-    line-height: 2.2rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
     vertical-align: middle;
 
 }
@@ -20,7 +19,7 @@ footer{
 .footer p{
     margin-bottom: 20px;
     margin-top: 0;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
 }
 
 .footer ul{
@@ -34,5 +33,5 @@ footer{
 
 .footer li{
     justify-items: center;
-    margin-left: 10px;
+    margin-left: 1rem;
 }
