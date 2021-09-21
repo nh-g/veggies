@@ -10,6 +10,9 @@
     font-weight: 300;
     font-size: var(--font-text-tablet);
     font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
 }
 .main{
     margin-top: 3rem;
