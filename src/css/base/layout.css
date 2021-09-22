@@ -8,7 +8,6 @@
     color: var(--color-gray);
     font-size: var(--font-text-tablet);
     font-weight: 300;
-    font-size: var(--font-text-tablet);
     font-family: "Noto Sans", "Roboto", 'Urbanist', sans-serif, 'Great Vibes', 'cursive' ;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -73,22 +72,18 @@ a{
   color: var(--color-gray);
 }
 
-@media screen and (max-width: 550px) {
-  .App, html, body {
-    font-size: var(--font-text-mobile);
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1100px) {
   .App, html, body {
     font-size: var(--font-text-desktop);
   }
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1800px) {
   .App, html, body {
     font-size: var(--font-text-big-desktop);
   }
 }
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 2500px) {
   .App, html, body {
     font-size: var(--font-text-ultra-desktop);
   }
